@@ -1,0 +1,19 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+
+# Node
+dist/
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+
+# Virtual Env
+venv/
+
+# static files
+static/

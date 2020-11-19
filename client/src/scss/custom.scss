@@ -1,0 +1,11 @@
+@import 'variables';
+
+$theme-colors: (
+  'primary': $primary-color,
+  'danger': $danger-color,
+  'dark': $dark-color,
+);
+
+$border-radius: 4px;
+
+@import 'node_modules/bootstrap/scss/bootstrap';

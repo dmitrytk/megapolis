@@ -1,0 +1,43 @@
+@import 'variables';
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: $body-color;
+  color: #000;
+}
+
+.bg-darkest {
+  background: $darkest-color;
+}
+
+.page-header {
+  color: #617182;
+  margin-bottom: 30px;
+
+  h1 {
+    font-size: 24px;
+  }
+}
+
+.card {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 3px 0 darken($body-color, 10%);
+  -moz-box-shadow: 0 0 3px 0 darken($body-color, 10%);
+  box-shadow: 0 0 3px 0 darken($body-color, 10%);
+}
+
+.card-header {
+  padding: 1rem;
+  border-bottom: 1px solid $body-color;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.car-body {
+  padding: 1rem;
+}
+
+.modal-backdrop {
+  opacity: 0.8;
+}
